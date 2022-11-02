@@ -1,0 +1,98 @@
+
+body {
+  color: #000;
+  background-color: #fff;
+  font-family: Helvetica;
+  box-sizing:border-box;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 310px;
+  top: 0px;
+  width: 300px;
+  height: 100vh;
+  background-color: #9a9a9a;
+  border-right: 4px solid #000;
+  left: 0;
+}
+
+.navHeader {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: thick;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#navbar li {
+  border-top: 1px solid #000;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar li:last-of-type {
+    border-bottom: 1px solid #000;
+}
+
+a {
+  display: block;
+  padding: 15px 25px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+  scroll-behavior: smooth;
+}
+
+header {
+    margin: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: thin;
+}
+
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+}
+
+article {
+  margin: 15px;
+  text-align: justify;
+}
+
+section li {
+  margin: 10px;
+}
+
+code {
+  display: block;
+  position: relative;
+  text-align: left;
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+  margin: 15px;
+}
+
+@media screen and (min-width: 800pxpx) {
+    body {
+        background-color: lightblue;
+    }
+}
+
