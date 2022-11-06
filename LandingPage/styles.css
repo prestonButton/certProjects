@@ -55,7 +55,7 @@ header {
 #home form {
     flex-direction:column;
     justify-content: center;
-    margin: 2em;  
+    margin: 2em;
 }
 
 #form #email {
